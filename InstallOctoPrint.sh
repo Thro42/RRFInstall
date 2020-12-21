@@ -12,4 +12,5 @@ echo "python -m pip install --user virtualenv"
 ~/.local/bin/virtualenv OctoPrint
 OctoPrint/bin/pip install OctoPrint
 sudo mv ~/RRFInstall/octoprint.service /etc/systemd/system/octoprint.service
-sudo service octoprint start
+sudo systemctl enable octoprint
+sudo systemctl start octoprint
