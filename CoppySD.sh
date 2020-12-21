@@ -1,9 +1,9 @@
 echo "--- Copy sys files ---"
-sudo cp -r /home/pi/RRFInstall/sys/ /opt/dsf/sd/sys/
+sudo cp -r /home/pi/RRFInstall/sys/ /opt/dsf/sd/
 echo "--- Copy Macros files ---"
-sudo cp -r /home/pi/RRFInstall/macros/ /opt/dsf/sd//macros/
+sudo cp -r /home/pi/RRFInstall/macros/ /opt/dsf/sd/
 echo "--- Copy Filamets files ---"
-sudo cp -r /home/pi/RRFInstall/filaments/ /opt/dsf/sd/filaments/
+sudo cp -r /home/pi/RRFInstall/filaments/ /opt/dsf/sd/
 echo "--- Copy GCodes files ---"
-sudo cp -r /home/pi/RRFInstall/gcodes/ /opt/dsf/sd/gcodes/
+sudo cp -r /home/pi/RRFInstall/gcodes/ /opt/dsf/sd/
 echo "--- done ---"
